@@ -20,6 +20,7 @@ The application currently is installed on:
 
 # Usage
 1. Open file chat.html in the (mobile) browser. The login screen opens. The randomly chosen user name can be changed.
+![ScreenShot](images/chat_screen.png)
 2. Click on *Login* to switch to the chat page.
 
 ## Remarks
