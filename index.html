@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title>IKS Chat</title>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="date.js"></script>
+<script src="chat.js"></script>
+<link href="chat.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="loginPage" data-role="page">
+	<header data-position="fixed" data-role="header">
+		<h1>IKS Chat</h1>
+		<a id="loginButton" class="ui-btn-right" data-icon="forward" data-role="button">Login</a>
+
+	</header>
+	<div data-role="content">
+		<form id="loginForm">
+			<div data-role="fieldcontain">
+				<label id="loginUserLabel" for="loginUser">Username*:</label>
+				<input id="loginUser" name="name" type="text" /> </div>
+		</form>
+	</div>
+	<footer class="xui-bar" data-position="fixed" data-role="footer">
+	</footer>
+</div>
+<div id="chatPage" data-role="page">
+	<header data-position="fixed" data-role="header">
+		<a id="chatLogout" data-icon="back" data-role="button">Logout</a>
+		<h1 id="chatTitle">IKS Chat</h1>
+		<a id="chatRefresh" data-icon="refresh" data-role="button">Refresh</a>
+	</header>
+	<div data-role="content">
+			<ul data-role="listview" data-theme="g" id="chats" data-filter="false">
+				Press Refresh! 
+			</ul>
+	</div>
+	<footer data-position="fixed" data-role="footer">
+		<div>		
+			<input id="chatText" data-theme="b" type="text" name="name" data-mini="true" value=""  />
+		</div>	
+		<div>
+			<a class="xui-btn-right" id="chatSend" data-icon="plus" data-role="button">Send</a>
+		</div>
+	</footer>
+</div>
+
+</body>
+
+</html>
