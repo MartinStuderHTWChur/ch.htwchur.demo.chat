@@ -14,4 +14,14 @@ Chat Demo Application
 (The button setup.php can be pressed again anytime to reset the database.)
 
 # Usage
-1. Open file chat.html in the browser.
+1. Open file chat.html in the (mobile) browser. The login screen opens. The randomly chosen user name can be changed.
+2. Click on *Login* to switch to the chat page.
+
+## Remarks
+- The chat application refreshes every 4 seconds.
+- If the login is done with a user name starting with *demo*, e.g. *demo10*, a chat entry is generated automatically after 1 minute inactivity.
+```
+demo10 > Mobile chat application. Open http://student.tlab.ch/chat, login and chat! (Sent at Fri Mar 01 2013 15:02:42 GMT+0100)
+generiert.
+```
+
