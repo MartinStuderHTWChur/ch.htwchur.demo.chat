@@ -20,8 +20,9 @@ The application currently is installed on:
 
 # Usage
 1. Open file chat.html in the (mobile) browser. The login screen opens. The randomly chosen user name can be changed.
-![ScreenShot](images/chat_screen.png)
+![ScreenShot](images/login_screen.png)
 2. Click on *Login* to switch to the chat page.
+![ScreenShot](images/chat_screen.png)
 
 ## Remarks
 - To delete all entries open *admin.html* and click button *Setup".
